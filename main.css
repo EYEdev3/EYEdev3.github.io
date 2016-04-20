@@ -1,0 +1,91 @@
+/* Style for home page */
+.home {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+.home-logo {
+    font-size: 56px;
+    font-family: Palatino, 'Palatino Linotype', serif;
+    color: rgb(46,105,163);
+}
+.coffeetea {
+    padding: 250px 0;
+    margin: 30px;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-image: url("images/coffeetable.jpg");
+    background-size: cover;
+    color: #ffffff;
+}
+.coffeetea a {
+    color: #00ffaa;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+#footer {
+    font-size: 0.75rem;
+}
+
+/* End of style for home page */
+
+
+
+/* Style for pages about, coffee, tea, get it, tunes */
+body {
+    background-color:#393d4f;
+}
+
+header {
+    text-align: center;
+    background-size: cover;
+    color: #a688a5;
+}
+/* Background photos for each page */
+
+.about-bg {
+    background: url("images/about.jpe");
+}
+.coffee-bg {
+    background: url("images/coffee.jpe");
+}
+.tea-bg {
+    background: url("images/tea.jpe");
+}
+.get-bg {
+    background: url("images/get.jpe");
+}
+.tunes-bg {
+    background: url("images/tunes.jpe");
+}
+
+/* End of background photos */
+a {
+    color: #dae3eb;
+}
+h1 {
+    font-size: 70px;
+    font-family: 'Fredericka the Great', cursive;
+    }
+
+#img {
+    margin: 40px 0px 0px 0px; /* not actual image - used as a placeholder to strech image */
+    height: 350px;
+    width: 150px;
+}
+
+ul {
+    padding: 10px;
+    background: #cc928d;
+}
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+.maincontent {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+  /* End of styles for pages */
