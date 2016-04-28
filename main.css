@@ -1,3 +1,35 @@
+/* General */
+body {
+    background-color: #8b95a3;
+}
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+/* Navigation */
+ul {
+    padding: 10px;
+    background: #adff00;
+   }
+li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+a {
+    color: #393d4f;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover, a.on {
+    color: #cc3333;
+    background-color: #ffffff;
+}
+/* End Navigation */
+
+
+
 /* Style for home page */
 .home {
     height: 100%;
@@ -7,8 +39,8 @@
 }
 .home-logo {
     font-size: 56px;
-    font-family: Palatino, 'Palatino Linotype', serif;
-    color: rgb(46,105,163);
+    font-family: 'Amatic SC', cursive;
+   
 }
 .coffeetea {
     padding: 250px 0;
@@ -18,9 +50,15 @@
     background-size: cover;
     color: #ffffff;
 }
+
+.slogan {
+    font-size: 35px;
+    font-weight: bold;
+    color: #cc3333;
+}
 .coffeetea a {
     color: #00ffaa;
-    font-size: 1.25em;
+    font-size: 2em;
     text-decoration: none;
 }
 
@@ -33,14 +71,11 @@
 
 
 /* Style for pages about, coffee, tea, get it, tunes */
-body {
-    background-color:#393d4f;
-}
 
-header {
+#header {
     text-align: center;
     background-size: cover;
-    color: #a688a5;
+   
 }
 /* Background photos for each page */
 
@@ -61,31 +96,43 @@ header {
 }
 
 /* End of background photos */
-a {
-    color: #dae3eb;
-}
+
 h1 {
-    font-size: 70px;
-    font-family: 'Fredericka the Great', cursive;
+    font-size: 80px;
+    font-family: 'Amatic SC', cursive;
+    color: #00ffaa;
     }
 
+.title { /* title on top of pages */
+    font-size: 80px;
+    font-family: 'Amatic SC', cursive;
+    color: #000;
+    text-align: center;
+}
+
+.titlepara {
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
 #img {
     margin: 40px 0px 0px 0px; /* not actual image - used as a placeholder to strech image */
     height: 350px;
     width: 150px;
 }
 
-ul {
-    padding: 10px;
-    background: #cc928d;
-}
-li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
-}
+
 .maincontent {
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
 }
+
+.pop {
+    color: #00ffaa;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
   /* End of styles for pages */
